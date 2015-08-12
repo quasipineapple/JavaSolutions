@@ -9,7 +9,7 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        //напишите тут ваш код123
+        //напишите тут ваш код
         Red red = new Red();
         Orange orange = new Orange();
         Yellow yellow = new Yellow();
