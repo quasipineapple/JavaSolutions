@@ -13,5 +13,10 @@ public class Solution
     public static void main(String[] args)   throws Exception
     {
         //напишите тут ваш код
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String money = reader.readLine();
+        String text = "Я буду зарабатывать $";
+
+        System.out.print(text + money + " в час");
     }
 }
