@@ -19,10 +19,14 @@ public class Solution
         {
             System.out.println("Имена идентичны");
         }
-        if (firstName.length() == secondName.length())
+        else
         {
-            System.out.println("Длины имен равны");
+            if (firstName.length() == secondName.length())
+            {
+                System.out.println("Длины имен равны");
+            }
         }
+
 
     }
 }
